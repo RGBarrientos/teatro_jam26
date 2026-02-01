@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PLayerController : MonoBehaviour
+public class movPersonaje : MonoBehaviour
 {
     [SerializeField] float speed = 3.0f;
 
