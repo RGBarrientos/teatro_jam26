@@ -4,16 +4,16 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - destructible
+  - pared
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Suelo
-  - 
+  - EnemyBullets
   - 
   - 
   - 
@@ -41,6 +41,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: fondo
+    uniqueID: 2887982403
+    locked: 0
+  - name: entidades
+    uniqueID: 4061192873
     locked: 0
   m_RenderingLayers:
   - Default
