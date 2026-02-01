@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5903838135210145869}
   - component: {fileID: 2657407569531184830}
   - component: {fileID: 8732851555649361347}
+  - component: {fileID: 3358175270298499471}
   m_Layer: 0
   m_Name: ChaserBullet
   m_TagString: Untagged
@@ -78,8 +79,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -233774423
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
@@ -104,4 +105,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0edd9b89d7831e43aafb99b9fd22e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChaserBullet
-  speed: 5
+  speed: 2
+--- !u!50 &3358175270298499471
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319373293029807959}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
