@@ -10,7 +10,10 @@ public class MovimientoP : MonoBehaviour
     [Range(0, 0.3f)][SerializeField] private float suavizadoMovimiento;
     private Vector3 velocidad = Vector3.zero;
     private bool mirandoDerecha = false;
+    [SerializeField] private Transform SpritePersonaje;
+    
 
+    private shooting angulo;
     [Header("Salto")]
     [SerializeField] private float FuerzaSalto;
     [SerializeField] private LayerMask queEsSuelo;
@@ -23,6 +26,7 @@ public class MovimientoP : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        angulo = FindAnyObjectByType<shooting>();
     }
 
     // Update is called once per frame
@@ -37,18 +41,18 @@ public class MovimientoP : MonoBehaviour
     void FixedUpdate()
     {
         estaEnSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
-        mover(movientoHorizontal * Time.fixedDeltaTime, salto);
+        mover(angulo.getGrados(),movientoHorizontal * Time.fixedDeltaTime, salto);
         salto = false;
     }
-    private void mover(float mover, bool saltar)
+    private void mover(float angulo,float mover, bool saltar)
     {
         Vector3 velocidadObjetivo = new Vector2(mover, rb2d.linearVelocity.y);
         rb2d.linearVelocity = Vector3.SmoothDamp(rb2d.linearVelocity, velocidadObjetivo, ref velocidad, suavizadoMovimiento);
-        if (mover > 0 && !mirandoDerecha)
+        if (angulo>270 && angulo<360 && !mirandoDerecha || angulo>1 && angulo <90 && !mirandoDerecha)
         {
             girar();
         }
-        else if (mover < 0 && mirandoDerecha)
+        else if (angulo>90 && angulo<=270 && mirandoDerecha)
         {
             girar();
         }
@@ -58,12 +62,12 @@ public class MovimientoP : MonoBehaviour
             rb2d.AddForce(new Vector2(0f, FuerzaSalto));
         }
     }
-    private void girar()
+    public void girar()
     {
         mirandoDerecha = !mirandoDerecha;
-        Vector3 escala = transform.localScale;
+        Vector3 escala = SpritePersonaje.transform.localScale;
         escala.x *= -1;
-        transform.localScale = escala;
+        SpritePersonaje.transform.localScale = escala;
     }
     private void OnDrawGizmos()
     {
