@@ -14,6 +14,13 @@ public class BulletScript : MonoBehaviour
         bulletRB.linearVelocity = new Vector2(moveDir.x,moveDir.y);
         Destroy(this.gameObject, 5);
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<MageController>().takeDamage(20);
+        }
+    }
 
     // Update is called once per frame
     

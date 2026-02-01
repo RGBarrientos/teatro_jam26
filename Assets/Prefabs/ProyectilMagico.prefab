@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7164292409851805143}
   - component: {fileID: 4444731349429078153}
   - component: {fileID: 1348982068501887407}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: ProyectilMagico
   m_TagString: Untagged
   m_Icon: {fileID: 0}

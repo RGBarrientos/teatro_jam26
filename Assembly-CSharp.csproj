@@ -53,6 +53,7 @@
     <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\MovimientoP.cs" />
+    <Compile Include="Assets\Scripts\MageController.cs" />
     <Compile Include="Assets\Scripts\ChaserBullet.cs" />
     <Compile Include="Assets\Scripts\ShoterEnemy.cs" />
     <Compile Include="Assets\Scripts\EnemyFollowPlayer.cs" />
