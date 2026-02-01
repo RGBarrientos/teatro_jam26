@@ -50,7 +50,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\shooting.cs" />
+    <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\MovimientoP.cs" />
+    <Compile Include="Assets\Scripts\ChaserBullet.cs" />
+    <Compile Include="Assets\Scripts\ShoterEnemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyFollowPlayer.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Bala.cs" />
   </ItemGroup>
