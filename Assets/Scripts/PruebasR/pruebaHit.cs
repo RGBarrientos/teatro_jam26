@@ -8,4 +8,5 @@ public class pruebaHit : MonoBehaviour
         GetComponent<BoxCollider2D>().enabled = false;
         gameObject.SetActive(false);
     }
+
 }

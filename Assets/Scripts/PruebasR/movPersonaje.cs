@@ -16,7 +16,7 @@ public class PLayerController : MonoBehaviour
     //Para el ataque
     [SerializeField] GameObject hitAtaque;
     float duracionAtaque = 0.15f;
-    float positionAtaque = 0.03f;
+    float sizeAtaque = 0.3f;
     
     // Start is called before the first frame update
     void Start()
@@ -24,12 +24,15 @@ public class PLayerController : MonoBehaviour
         playerRenderer = GetComponent<SpriteRenderer>();
         rigi = GetComponent<Rigidbody2D>();
         hitAtaque.SetActive(false);
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         ControlPlayer();
+        SwitchHitbox();
     }
 
     void ControlPlayer(){
@@ -47,7 +50,7 @@ public class PLayerController : MonoBehaviour
             rigi.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
         }
 
-        if(Input.GetKey("j")){
+        if(Input.GetKeyDown("j")){
             Ataque();
         }
     }
@@ -55,8 +58,30 @@ public class PLayerController : MonoBehaviour
     void Giro(float direccion)
     {
         Vector3 currentPosition = hitAtaque.GetComponent<Transform>().localPosition;
-        currentPosition.x = 0.3f * direccion;
+        currentPosition.x = sizeAtaque * direccion;
         hitAtaque.GetComponent<Transform>().localPosition = currentPosition;
+    }
+
+    void SwitchHitbox(){
+        if(Input.GetKeyDown("e")){
+            BoxCollider2D boxAtaque = hitAtaque.GetComponent<BoxCollider2D>();
+            if(sizeAtaque == 0.3f)
+            {
+                sizeAtaque = 0.15f;
+                Vector2 size = boxAtaque.size;
+                size.x = sizeAtaque;
+                boxAtaque.size = size;
+                Giro(1);
+            }
+            else
+            {
+                sizeAtaque = 0.3f;
+                Vector2 size = boxAtaque.size;
+                size.x = sizeAtaque;
+                boxAtaque.size = size;
+                Giro(1);
+            }
+        }
     }
 
     void Ataque()
