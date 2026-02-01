@@ -32,7 +32,7 @@ public class shooting : MonoBehaviour
         anguloGrados = (Mathf.Atan2(direccion.y,direccion.x) * Mathf.Rad2Deg) + 180f;
         
         transform.rotation = Quaternion.Euler(0,0,anguloGrados);
-        Debug.Log(anguloGrados);
+        //Debug.Log(anguloGrados);
         
 
         if (Input.GetMouseButtonDown(0))
@@ -66,4 +66,5 @@ public class shooting : MonoBehaviour
     {
         return anguloGrados;
     }
+    
 }

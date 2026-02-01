@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 45d144c3a0857c8449ec2d7e782fd453
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6403824909152056491
+    second: bruxa-Sheet_0
+  - first:
+      213: 6951259443151670997
+    second: bruxa-Sheet_1
+  - first:
+      213: -2046227705235065267
+    second: bruxa-Sheet_2
+  - first:
+      213: 1768040578708726512
+    second: bruxa-Sheet_3
+  - first:
+      213: -2537542548132007825
+    second: bruxa-Sheet_4
+  - first:
+      213: 8671640635796694908
+    second: bruxa-Sheet_5
+  - first:
+      213: 1881293785792966232
+    second: bruxa-Sheet_6
+  - first:
+      213: 9150043063548747541
+    second: bruxa-Sheet_7
+  - first:
+      213: 8485835485988066099
+    second: bruxa-Sheet_8
+  - first:
+      213: -2710353799795262841
+    second: bruxa-Sheet_9
+  - first:
+      213: 8075594588910411479
+    second: bruxa-Sheet_10
+  - first:
+      213: 6367714968908459443
+    second: bruxa-Sheet_11
+  - first:
+      213: 5588055228136764746
+    second: bruxa-Sheet_12
+  - first:
+      213: -4531574114863866125
+    second: bruxa-Sheet_13
+  - first:
+      213: -7353041431808316498
+    second: bruxa-Sheet_14
+  - first:
+      213: 2458559782550233838
+    second: bruxa-Sheet_15
+  - first:
+      213: 5060514014620404550
+    second: bruxa-Sheet_16
+  - first:
+      213: 1284169555337909077
+    second: bruxa-Sheet_17
+  - first:
+      213: -3292028230582550668
+    second: bruxa-Sheet_18
+  - first:
+      213: 1295288858150878129
+    second: bruxa-Sheet_19
+  - first:
+      213: -4736729872000666944
+    second: bruxa-Sheet_20
+  - first:
+      213: 8693428003175451404
+    second: bruxa-Sheet_21
+  - first:
+      213: 3710953840698144049
+    second: bruxa-Sheet_22
+  - first:
+      213: -5174140555637973044
+    second: bruxa-Sheet_23
+  - first:
+      213: 8587476241056591636
+    second: bruxa-Sheet_24
+  - first:
+      213: 6939714003715411302
+    second: bruxa-Sheet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bruxa-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 357
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b813e8c2b0127a0800000000000000
+      internalID: -6403824909152056491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 311
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de82aa52a5d77060800000000000000
+      internalID: 6951259443151670997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 356
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46b6e35eb65a93e0800000000000000
+      internalID: -2046227705235065267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 311
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2e862f987598810800000000000000
+      internalID: 1768040578708726512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 311
+        width: 75
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60f6283f76d8ccd0800000000000000
+      internalID: -2537542548132007825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 311
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c772184c63bd75870800000000000000
+      internalID: 8671640635796694908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 211
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ee65c0bb2bb1a10800000000000000
+      internalID: 1881293785792966232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 211
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f9952ffab7bfe70800000000000000
+      internalID: 9150043063548747541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 211
+        width: 111
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33319b42a6eb3c570800000000000000
+      internalID: 8485835485988066099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 205
+        width: 155
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ab2934493e26ad0800000000000000
+      internalID: -2710353799795262841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 106
+        width: 162
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de52160e76421070800000000000000
+      internalID: 8075594588910411479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 33
+        width: 155
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bde9b0d60bae5850800000000000000
+      internalID: 6367714968908459443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 148
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a453b5a8f92cc8d40800000000000000
+      internalID: 5588055228136764746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 155
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe1f221a5d9c11c0800000000000000
+      internalID: -4531574114863866125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 151
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabe55e96cfb4f990800000000000000
+      internalID: -7353041431808316498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 164
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2e7f1a81f8e1220800000000000000
+      internalID: 2458559782550233838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 111
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bc55e3fae8a3640800000000000000
+      internalID: 5060514014620404550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 151
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5539941286942d110800000000000000
+      internalID: 1284169555337909077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 152
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fb19524cd5052d0800000000000000
+      internalID: -3292028230582550668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 111
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbba9f8a5ac9f110800000000000000
+      internalID: 1295288858150878129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 119
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c23b661741c34eb0800000000000000
+      internalID: -4736729872000666944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bc4b985b245a870800000000000000
+      internalID: 8693428003175451404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1353fac4bd4ff7330800000000000000
+      internalID: 3710953840698144049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 124
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf91431492c138b0800000000000000
+      internalID: -5174140555637973044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 11
+        width: 138
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fe8419428dc2770800000000000000
+      internalID: 8587476241056591636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bruxa-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 11
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dc2424e11de4060800000000000000
+      internalID: 6939714003715411302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bruxa-Sheet_0: -6403824909152056491
+      bruxa-Sheet_1: 6951259443151670997
+      bruxa-Sheet_10: 8075594588910411479
+      bruxa-Sheet_11: 6367714968908459443
+      bruxa-Sheet_12: 5588055228136764746
+      bruxa-Sheet_13: -4531574114863866125
+      bruxa-Sheet_14: -7353041431808316498
+      bruxa-Sheet_15: 2458559782550233838
+      bruxa-Sheet_16: 5060514014620404550
+      bruxa-Sheet_17: 1284169555337909077
+      bruxa-Sheet_18: -3292028230582550668
+      bruxa-Sheet_19: 1295288858150878129
+      bruxa-Sheet_2: -2046227705235065267
+      bruxa-Sheet_20: -4736729872000666944
+      bruxa-Sheet_21: 8693428003175451404
+      bruxa-Sheet_22: 3710953840698144049
+      bruxa-Sheet_23: -5174140555637973044
+      bruxa-Sheet_24: 8587476241056591636
+      bruxa-Sheet_25: 6939714003715411302
+      bruxa-Sheet_3: 1768040578708726512
+      bruxa-Sheet_4: -2537542548132007825
+      bruxa-Sheet_5: 8671640635796694908
+      bruxa-Sheet_6: 1881293785792966232
+      bruxa-Sheet_7: 9150043063548747541
+      bruxa-Sheet_8: 8485835485988066099
+      bruxa-Sheet_9: -2710353799795262841
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

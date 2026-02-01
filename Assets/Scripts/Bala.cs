@@ -9,6 +9,12 @@ public class Bala : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+        if (collision.gameObject.CompareTag("enemigo"))
+        {
+            collision.gameObject.GetComponent<VidaEnemigos>().takeDamage(20);
+            gameObject.SetActive(false);
+            
+        }
     }
     void OnBecameInvisible()
     {

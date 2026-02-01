@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Linq;
+using System.Collections.Generic;
 public class EnemyController : MonoBehaviour
 {
     
@@ -7,6 +8,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private Transform[] puntos;
     [SerializeField] private GameObject[] enemigos;
     [SerializeField] private float TiempoEnemigos;
+    
+    
     private float TiempoSiguente;
 
 
@@ -34,5 +37,9 @@ public class EnemyController : MonoBehaviour
         int numeroEnemigo = Random.Range(0, enemigos.Length);
         Vector2 posicionAleatoria = new Vector2(Random.Range(minX,maxX), Random.Range(minY,maxY));
         Instantiate(enemigos[numeroEnemigo], posicionAleatoria, Quaternion.identity);
+        
     }
+
+    
+    
 }

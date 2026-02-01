@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\EnemyFollowPlayer.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Bala.cs" />
+    <Compile Include="Assets\Scripts\VidaEnemigos.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

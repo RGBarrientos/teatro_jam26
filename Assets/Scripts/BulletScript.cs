@@ -19,9 +19,19 @@ public class BulletScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<MageController>().takeDamage(20);
+            gameObject.SetActive(false);
+            Debug.Log("colisiono");
+        }
+        if (collision.gameObject.tag == "pared")
+        {
+            gameObject.SetActive(false);
+            Debug.Log("colisiono piso");
         }
     }
-
+    void OnBecameInvisible()
+    {
+        gameObject.SetActive(false);
+    }
     // Update is called once per frame
     
 }
